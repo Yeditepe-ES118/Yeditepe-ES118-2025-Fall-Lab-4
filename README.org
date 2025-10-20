@@ -13,13 +13,13 @@
 [[./throw.png]]
 
 When a rock of mass $m$ kg thrown with initial speed $v_0$ m/s at an angle of $\theta$ degree, find the listed information under the effect of a gravitational acceleration acting downwards $g = 9.81$ m/s$^2$,
-- time of flight: $t_{flight} = \frac{2v_0sin(\theta)}{g}$ (s)
+- time of flight: $t_f = \frac{2v_0sin(\theta)}{g}$ (s)
 - range: $R = \frac{v_0^2 sin(2\theta)}{g}$ (m)
-- maximum height: $h_{max} = \frac{v_0^2sin^2(\theta)}{2g}$ (m)
-- velocity at maximum height: $v_{hmax} = v_0 cos(\theta)$ (m/s)
-- kinetic energy at maximum height: $K_{hmax} = \frac{1}{2}mv_{hmax}h_{max}^2$ (J)
+- maximum height: $h_m = \frac{v_0^2sin^2(\theta)}{2g}$ (m)
+- velocity at maximum height: $v_h = v_0 cos(\theta)$ (m/s)
+- kinetic energy at maximum height: $K_h = \frac{1}{2}mv_hh_m^2$ (J)
 
-For this purpose write a function called ~throw_rock~ which accepts $m$, $v_0$, and $\theta$.
+For this purpose write a function called ~throw_rock~ which accepts $m$, $v_0$, and $\theta$ in a new file called ~lab4.py~.
 
 The function shall return all the computed variables as well as display those variables in the console using ~print~ function. For instance, if $m = 1.5$ kg, $v_0 = 0.3$ m/s, and $\theta = 35.20$ degrees, the output in the console will be
 
